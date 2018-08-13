@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+$accent: #ff69b4;
+// importing all styles works
+// @import '~@progress/kendo-theme-default/scss/all';
+
+// importing only the required styles for tooltip cause the callout to not be visible
+@import '~@progress/kendo-theme-default/scss/tooltip';
